@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <input
+        type="text"
+        name="lastname"
+        placeholder="Votre nom"
+        value="Puaud"
+      />
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Votre prénom"
+        value="Arnaud"
+      />
+      <input
+        type="text"
+        name="email"
+        placeholder="Votre email"
+        value="contact@bonnie-and-cloud.com"
+      />
+      <input
+        type="text"
+        name="phone"
+        placeholder="Votre numéro"
+        value="0799876543"
+      />
+      <input
+        class="inputPro"
+        type="text"
+        name="profilPro"
+        placeholder="entreprise"
+      />
+      <input
+        type="text"
+        class="inputPerso"
+        name="profilPerso"
+        placeholder="adresse-postale"
+      />
+      <select class="contactType" name="selection">
+        <option value="perso">Particulier</option>
+        <option value="professionnel">Professionnel</option>
+      </select>
+
+      <input type="submit" value="Ajouter" />
+    </form>
+    <div class="renderContact"></div>
+    <script src="carnet 2.js"></script>
+  </body>
+</html>
